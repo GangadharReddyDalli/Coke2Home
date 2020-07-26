@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/scrollviewlayout"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#F40009"
+    android:clipToPadding="false"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:orientation="vertical"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="5dip"
+        android:paddingEnd="10dip"
+        android:background="#F40009"
+        android:paddingStart="5dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dip"
+            android:orientation="vertical"
+            android:paddingStart="5dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip"
+            android:paddingRight="10dip"
+            android:paddingBottom="5dip"
+            android:background="#eeeeee"
+            android:paddingEnd="10dip">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/storename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/store_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/storeownername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/store_owner_s_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/gstin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gst_in"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phoneno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:inputType="number"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <include layout="@layout/item01" />
+        <include layout="@layout/item02" />
+        <include layout="@layout/item03" />
+        <include layout="@layout/item04" />
+        <include layout="@layout/item05" />
+        <include layout="@layout/item06" />
+        <include layout="@layout/item07" />
+        <include layout="@layout/item08" />
+        <include layout="@layout/item09" />
+        <include layout="@layout/item10" />
+
+        <include layout="@layout/item11" />
+        <include layout="@layout/item12" />
+        <include layout="@layout/item13" />
+        <include layout="@layout/item14" />
+        <include layout="@layout/item15" />
+        <include layout="@layout/item16" />
+        <include layout="@layout/item17" />
+        <include layout="@layout/item18" />
+        <include layout="@layout/item19" />
+        <include layout="@layout/item20" />
+
+        <include layout="@layout/item21" />
+        <include layout="@layout/item22" />
+        <include layout="@layout/item23" />
+        <include layout="@layout/item24" />
+        <include layout="@layout/item25" />
+        <include layout="@layout/item26" />
+        <include layout="@layout/item27" />
+        <include layout="@layout/item28" />
+        <include layout="@layout/item29" />
+        <include layout="@layout/item30" />
+
+        <include layout="@layout/item31" />
+
+        <include layout="@layout/item32" />
+        <include layout="@layout/item33" />
+        <include layout="@layout/item34" />
+        <include layout="@layout/item35" />
+        <include layout="@layout/item36" />
+        <include layout="@layout/item37" />
+        <include layout="@layout/item38" />
+        <include layout="@layout/item39" />
+        <include layout="@layout/item40" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/submit" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
