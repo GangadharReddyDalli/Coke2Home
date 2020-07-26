@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CokeToHome</string>
+    <string name="pacchi_chanaga_pappu">పచి చంగప పప్పు</string>
+    <string name="salt">ఉప్పు</string>
+    <string name="veru_shanaga_pappu">వేరు సేనగప్పప్పు</string>
+    <string name="vepudu_shanaga_pappu">" వేపుడు సేనగప్పప్పు"</string>
+    <string name="vellullipayi">" వెల్లుల్లి"</string>
+    <string name="vaamu">వాము</string>
+    <string name="shanagalu">" వేరుశెనగ"</string>
+    <string name="semiya">సేమ్యా</string>
+    <string name="pesarapappu">పెసర పప్పు</string>
+    <string name="panchadaara">చక్కెర</string>
+    <string name="minappappu">మినపప్పు</string>
+    <string name="minapa_gullu">మినప గుళ్ళు</string>
+    <string name="menthulu">మెంతులు</string>
+    <string name="maida">మైదా</string>
+    <string name="karachi_nooka">కరాచీ నూక</string>
+    <string name="kandipappu">కందిపప్పు</string>
+    <string name="kabuli_shanagalu">కాబూలీ శనగలు</string>
+    <string name="jilakarra">జిల్లాకర్ర</string>
+    <string name="idly_rava">ఇడ్లీ రవ్వ</string>
+    <string name="harmonium_aata">హార్మోనియం ఆట</string>
+    <string name="ghasagasalu">గసగసాలు</string>
+    <string name="erra_nooka">ఎర్ర నూక</string>
+    <string name="endi_mirchi">ఏందీ మిర్చి</string>
+    <string name="dhaniyalu">ధనియాలు</string>
+    <string name="chaya_minapa_gullu">ఛాయ మినప గుళ్ళు</string>
+    <string name="banni_rava">బన్నీ రవ</string>
+    <string name="atukulu">అటుకులు</string>
+    <string name="aavalu">ఆవాలు</string>
+    <string name="aata">ఆట</string>
+    <string name="aashirwad_aata">ఆశీర్వాద్ ఆట</string>
+    <string name="itemname">సరుకుల వివరాలు</string>
+    <string name="unitheading">యూనిట్</string>
+    <string name="price_heading">ధర</string>
+    <string name="offer_price_heading">ఆఫర్ ధర</string>
+    <string name="banner_html">banner.html</string>
+    <string name="genji_powder">గెంజి పొడి</string>
+</resources>
